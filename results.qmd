@@ -1,0 +1,40 @@
+---
+title: "shark_morpho_methods"
+format: html
+editor: visual
+---
+
+## Method compare
+
+```{r}
+shark <- read.csv("shark - data_sheet.csv") %>% 
+  group_by()
+```
+
+#okay let's see it aspect ratio
+```{r}
+shark %>% 
+  ggplot(aes(x = method, y = aspect_ratio))+
+  geom_boxplot()+
+  geom_point(aes(color = species))
+
+```
+
+```{r}
+shark %>% 
+  ggplot(aes(x = method, y = area_total_length))+
+  geom_boxplot()+
+  geom_point(aes(color = species))
+```
+
+```{r}
+shark %>% 
+  ggplot(aes(species, aspect_ratio, fill = method))+
+  geom_col(position = "dodge")
+```
+```{r}
+shark %>% 
+  ggplot(aes(species, area_total_length, fill = method))+
+  geom_col(position = "dodge")
+```
+

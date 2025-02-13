@@ -1,0 +1,16 @@
+species,total_length,pectoral_fin_area,aspect_ratio,pectoral_fin_length,area_total_length,method
+Etmopterus_pusillus,49.6,7.478,2.446999994,4.277694,0.150766129,sternes
+Scyliorhinus_stellaris,155,189.514,2.775,22.93254,1.222670968,sternes
+Alopias_vulpinus,581.8,2072.816,3.918,90.11822,3.562763836,sternes
+Scoliodon_macrorhynchos,70.4,30.487,2.453,8.64781,0.4330539773,sternes
+Squalus_japonicus,93.4,59.121,2.553,12.2856,0.632987152,sternes
+Etmopterus_pusillus,51.974,8.981,2.001737,4.24,0.1727979374,illustrations
+Scyliorhinus_stellaris,149.546,216.391,3.650554949,28.106,1.446986212,illustrations
+Alopias_vulpinus,533.566,2189.055,4.664247411,101.046,4.102688327,illustrations
+Scoliodon_macrorhynchos,82.161,51.849,1.92674931,9.995,0.6310658342,illustrations
+Squalus_japonicus,97.219,57.613,5.214671845,17.333,0.5926104979,illustrations
+Etmopterus_pusillus,238.576,157.845,1.959756369,17.588,0.6616130709,diagram
+Scyliorhinus_stellaris,236.026,458.79,2.169763075,31.551,1.943811275,diagram
+Alopias_vulpinus,244.473,414.745,3.511406392,38.162,1.696485911,diagram
+Scoliodon_macrorhynchos,238.15,321.55,2.150130418,26.294,1.350199454,diagram
+Squalus_japonicus,242.939,446.881,2.819148802,35.494,1.839478223,diagram
