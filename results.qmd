@@ -7,11 +7,14 @@ editor: visual
 ## Method compare
 
 ```{r}
+library(tidyverse)
+library(ggplot2)
 shark <- read.csv("shark - data_sheet.csv") %>% 
   group_by()
 ```
 
 #okay let's see it aspect ratio
+
 ```{r}
 shark %>% 
   ggplot(aes(x = method, y = aspect_ratio))+
@@ -32,9 +35,9 @@ shark %>%
   ggplot(aes(species, aspect_ratio, fill = method))+
   geom_col(position = "dodge")
 ```
+
 ```{r}
 shark %>% 
   ggplot(aes(species, area_total_length, fill = method))+
   geom_col(position = "dodge")
 ```
-
